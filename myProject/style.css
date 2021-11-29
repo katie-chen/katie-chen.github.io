@@ -1,0 +1,121 @@
+#title {
+  margin-left: 190px;
+  margin-top: 150px;
+  font-size: 40px;
+}
+#start {
+  color: black;
+  margin-left: 680px;
+  margin-top: 0px;
+  font-size: 30px;
+  /* transform: translateY(0px); */
+  transform: translateY(-400px);
+  animation: arrowMove 2s ease-in 0s infinite alternate;
+}
+#title:hover {
+  color: orange;
+}
+body {
+  background-color: rgb(245, 205, 218);
+  font-family: "Karla";
+  color: gray;
+}
+#threepics {
+  /* transform: translateY(0px); */
+  transform: translateY(-350px) scale(1.2, 1.2);
+}
+/* #threepics:hover {
+  transform: scale(1.2, 1.2);
+} */
+#egg {
+  margin-left: 600px;
+  transition: all 0.45s;
+}
+#egg:hover {
+  transform: scale(1.2, 1.2);
+}
+#potato {
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 0.45s;
+}
+#potato:hover {
+  transform: scale(1.2, 1.2);
+}
+#leaf {
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 0.45s;
+}
+#leaf:hover {
+  transform: scale(1.2, 1.2);
+}
+#pots {
+  margin-left: 680px;
+  opacity: 0%;
+  transform: translateY(-450px) scale(1.4, 1.4);
+  transition: all 0.45s;
+}
+#pots:hover {
+  transform: scale(1.2, 1.2);
+}
+#page2title {
+  transform: translateY(-80px);
+  margin-left: 160px;
+  opacity: 0%;
+  font-size: 30px;
+}
+#page3title {
+  margin-left: 100px;
+  opacity: 0%;
+  font-size: 25px;
+  transform: translateY(-180px);
+}
+#cooked {
+  opacity: 0%;
+  margin-left: 630px;
+  transform: translateY(-540px) scale(1.5, 1.5);
+}
+#eggpeeled {
+  transition: all 0.45s;
+}
+
+#eggpeeled:hover {
+  transform: scale(1.2, 1.2);
+}
+#potatopeeled {
+  transition: all 0.45s;
+  margin-left: 20px;
+}
+#potatopeeled:hover {
+  transform: scale(1.2, 1.2);
+}
+#teacooked {
+  transition: all 0.45s;
+  margin-left: 30px;
+}
+#teacooked:hover {
+  transform: scale(1.2, 1.2);
+}
+#page4title {
+  opacity: 0%;
+  margin-left: 150px;
+  font-size: 30px;
+  transform: translateY(-300px);
+}
+#page5title {
+  opacity: 0%;
+  margin-left: 140px;
+  font-size: 30px;
+  transform: translateY(-430px);
+}
+/* moves up, disappears, then new items appear fading in  */
+
+@keyframes arrowMove {
+  from {
+    transform: translateY(-400px) scale(1);
+  }
+  to {
+    transform: translateY(-400px) scale(0.8);
+  }
+}
